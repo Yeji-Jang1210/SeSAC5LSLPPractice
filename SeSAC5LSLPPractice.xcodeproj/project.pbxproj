@@ -13,6 +13,9 @@
 		B8DE65372C4F87880054E882 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B8DE65362C4F87880054E882 /* Base */; };
 		B8DE65392C4F87890054E882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DE65382C4F87890054E882 /* Assets.xcassets */; };
 		B8DE653C2C4F87890054E882 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B8DE653B2C4F87890054E882 /* Base */; };
+		B8DE65442C4F87A20054E882 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B8DE65432C4F87A20054E882 /* .gitignore */; };
+		B8DE65462C4F88690054E882 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE65452C4F88690054E882 /* LoginViewController.swift */; };
+		B8DE65482C4F88700054E882 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE65472C4F88700054E882 /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B8DE65382C4F87890054E882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8DE653B2C4F87890054E882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8DE653D2C4F87890054E882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DE65432C4F87A20054E882 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B8DE65452C4F88690054E882 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B8DE65472C4F88700054E882 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		B8DE65232C4F87880054E882 = {
 			isa = PBXGroup;
 			children = (
+				B8DE65432C4F87A20054E882 /* .gitignore */,
 				B8DE652E2C4F87880054E882 /* SeSAC5LSLPPractice */,
 				B8DE652D2C4F87880054E882 /* Products */,
 			);
@@ -63,6 +70,8 @@
 				B8DE65382C4F87890054E882 /* Assets.xcassets */,
 				B8DE653A2C4F87890054E882 /* LaunchScreen.storyboard */,
 				B8DE653D2C4F87890054E882 /* Info.plist */,
+				B8DE65452C4F88690054E882 /* LoginViewController.swift */,
+				B8DE65472C4F88700054E882 /* APIKey.swift */,
 			);
 			path = SeSAC5LSLPPractice;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DE65442C4F87A20054E882 /* .gitignore in Resources */,
 				B8DE65392C4F87890054E882 /* Assets.xcassets in Resources */,
 				B8DE653C2C4F87890054E882 /* Base in Resources */,
 				B8DE65372C4F87880054E882 /* Base in Resources */,
@@ -138,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DE65462C4F88690054E882 /* LoginViewController.swift in Sources */,
 				B8DE65342C4F87880054E882 /* ViewController.swift in Sources */,
 				B8DE65302C4F87880054E882 /* AppDelegate.swift in Sources */,
 				B8DE65322C4F87880054E882 /* SceneDelegate.swift in Sources */,
+				B8DE65482C4F88700054E882 /* APIKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
